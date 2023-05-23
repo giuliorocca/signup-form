@@ -5,6 +5,8 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 
 p {
@@ -21,7 +23,7 @@ select {
   margin: 0;
   box-sizing: border-box;
   width: 40%;
-  padding: 5px;
+  padding: 0px;
   height: 30px;
 }
 
@@ -78,7 +80,7 @@ select {
     width: 45rem;
     font-size: 1.5rem;
     font-weight:bold;
-    padding-left: 30px;
+    padding-left: 40px;
     position: absolute;
     bottom: 50px;
 }
@@ -88,5 +90,30 @@ select {
 }
 
 #form {
-    padding-left: 30px;
+    margin-top: 20px;
+    padding-left: 40px;
+}
+
+#form_greeting {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#top_form_container {
+    box-shadow:  8px 6px 10px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+}
+
+#bottom_form {
+    margin-top: 40px;
+}
+
+#account_login {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 40px;
+    font-size: 0.9rem;
+    font-weight: bold;
 }
