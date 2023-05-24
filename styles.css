@@ -2,94 +2,94 @@
     font-family: Norse_Bold;
     src: url(https://cdn.statically.io/gh/TheOdinProject/theodinproject/efdc2888072f409e687d31dc580595dbe4fe0ff4/app/assets/fonts/Norse-Bold.otf);
   }
-
-body {
+  
+  body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     padding: 0px;
-}
-
-p {
+  }
+  
+  p {
     margin: 0px;
-}
-
-button,
-label,
-input,
-select {
-  font-family: inherit;
-  font-size: 100%;
-  margin: 0px;
-  box-sizing: border-box;
-  width: 40%;
-  padding: 0px;
-  height: 20px;
-}
-
-input {
+  }
+  
+  button,
+  label,
+  input,
+  select {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0px;
+    box-sizing: border-box;
+    width: 40%;
+    padding: 0px;
+    height: 20px;
+  }
+  
+  input {
     height: 30px;
-}
-
-label {
+  }
+  
+  label {
     display: block;
     font-size: 85%;
-}
-
-label, input {
-    width: 16rem;
-}
-
-input {
-    border: 2px solid rgb(223, 223, 223);
-}
-
-input:focus {
-    border: 2px solid rgb(119, 119, 119);
-    box-shadow:  4px 4px 4px rgba(0, 0, 0, 0.3);
-}
-
-input:invalid {
-    border-color: red;
-}
-
-input:valid {
-    border-color: green;
-}
+  }
   
-#container {
+  label, input {
+    width: 16rem;
+  }
+  
+  input {
+    border: 2px solid rgb(223, 223, 223);
+  }
+  
+  input:focus {
+    border: 2px solid rgb(119, 119, 119);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  input:invalid {
+    border-color: red;
+  }
+  
+  input:valid {
+    border-color: green;
+  }
+  
+  #container {
     display: flex;
     flex-direction: row;
-}
-
-#left {
+  }
+  
+  #left {
     display: flex;
     flex-direction: column;
     width: 35vw;
     height: 100vh;
-    background-image: url("background.jpg");
     background-size: cover;
-}
-
-#right {
+    background-image: url(background.jpg);
+  }
+  
+  #right {
     width: 65vw;
     height: 100vh;
-}
-
-#logo {
+  }
+  
+  #logo {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     position: relative;
     top: 20vh;
-    font-family: Norse_Bold;
+    font-family: Norse_Bold, serif;
     font-size: 5rem;
     color: white;
-    background-color: rgba(0,0,0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 15px;
-}
-
-#caption {
+  }
+  
+  #caption {
     display: flex;
     flex-direction: row;
     width: 35vw;
@@ -97,81 +97,70 @@ input:valid {
     position: absolute;
     bottom: 10px;
     color: white;
-}
-
-#intro {
-    background-color: rgb(233, 233, 233);   
+  }
+  
+  #intro {
+    background-color: rgb(233, 233, 233);
     height: 20rem;
     position: relative;
-    box-shadow:  2px 2px 2px rgba(170, 170, 170, 0.4);
-}
-
-#intro_text1 {
+    box-shadow: 2px 2px 2px rgba(170, 170, 170, 0.4);
+  }
+  
+  #intro_text1 {
     width: 45rem;
     font-size: 1.5rem;
-    font-weight:bold;
+    font-weight: bold;
     padding-left: 40px;
     position: absolute;
     bottom: 50px;
-}
-
-#intro_text2 {
+  }
+  
+  #intro_text2 {
     margin-top: 20px;
-}
-
-#form {
+  }
+  
+  #form {
     margin-top: 20px;
-}
-
-#form_greeting {
+  }
+  
+  #form_greeting {
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 1.5rem;
     font-weight: bold;
     padding-left: 40px;
-}
-
-#form_top_section {
-    margin-bottom: 20px;
-}
-
-#first_row_form, #second_row_form, #third_row_form {
+  }
+  
+  #form_top_section {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 40px;
-    padding-left: 40px;
-}
+    gap: 30px;
+    justify-content: space-between;
+    padding: 40px;
+  }
+  
+  #form_top_section {
+    box-shadow: 8px 6px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  #field_1, #field_2, #field_3, #field_4, #field_5, #field_6 {
 
-#second_row_form, #third_row_form {
-    margin-top: 20px;
-}
-
-#third_row_form {
-    padding-bottom: 25px;
-}
-
-#form_top_section {
-    box-shadow:  8px 6px 10px rgba(0, 0, 0, 0.3);
-}
-
-#field_1, #field_2, #field_3, #field_4, #field_5, #field_6 {
-    display: block;
-}
-
-#account_login {
+  }
+  
+  #account_login {
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 0.9rem;
     font-weight: bold;
     padding-left: 40px;
-}
-
-#form_button {
+  }
+  
+  #form_button {
     padding-left: 40px;
-}
-
-#button_submit {
+  }
+  
+  #button_submit {
     margin-top: 30px;
     display: flex;
     flex-direction: column;
@@ -181,4 +170,4 @@ input:valid {
     border-radius: 5px;
     padding: 20px 40px 20px 40px;
     width: auto;
-}
+  }
