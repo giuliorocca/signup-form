@@ -64,14 +64,14 @@
   #left {
     display: flex;
     flex-direction: column;
-    width: 35vw;
+    width: 33vw;
     height: 100vh;
     background-size: cover;
     background-image: url(background.jpg);
   }
   
   #right {
-    width: 65vw;
+    width: 67vw;
     height: 100vh;
   }
   
