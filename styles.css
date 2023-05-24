@@ -99,11 +99,12 @@
     color: white;
   }
   
-  #intro {
+  #right_top {
     background-color: rgb(233, 233, 233);
     height: 20rem;
     position: relative;
     box-shadow: 2px 2px 2px rgba(170, 170, 170, 0.4);
+    display: flex;
   }
   
   #intro_text1 {
@@ -117,9 +118,10 @@
   
   #intro_text2 {
     margin-top: 20px;
+
   }
   
-  #form {
+  #right_middle {
     margin-top: 20px;
   }
   
@@ -142,10 +144,6 @@
   
   #form_top_section {
     box-shadow: 8px 6px 10px rgba(0, 0, 0, 0.3);
-  }
-  
-  #field_1, #field_2, #field_3, #field_4, #field_5, #field_6 {
-
   }
   
   #account_login {
