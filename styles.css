@@ -31,7 +31,7 @@
   }
   
   label {
-    display: block; // stacks labels and inputs on top of each other
+    display: block; 
     font-size: 90%;
   }
   
@@ -169,4 +169,17 @@
     border-radius: 5px;
     padding: 20px 40px 20px 40px;
     width: auto;
+  }
+
+  .error {
+    width: 16rem;
+    font-size: 80%;
+    color: red;
+    box-sizing: border-box;
+    display: block;
+  }
+
+  .error.active {
+    margin-top: 5px;
+    padding: 0.3rem;
   }
