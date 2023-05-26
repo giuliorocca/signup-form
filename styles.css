@@ -48,10 +48,6 @@
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
   }
   
-  input:invalid {
-    border-color: red;
-  }
-  
   input:valid {
     border-color: green;
   }
